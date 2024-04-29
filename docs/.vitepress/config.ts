@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
 	lang: 'zh-CN',
+ base: '/',
 	title: 'Hero',
 	description: '基于 vitepress 的文档模板',
 	head: [['link', { rel: 'icon', href: '/favicon.png' }]],
