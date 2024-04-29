@@ -2,6 +2,7 @@
   "version": "0.0.0",
   "name": "vitepress-docs-starter",
   "description": "vitepress 的文档模板",
+  "type": "module",
   "keywords": [
     "docs",
     "unocss",
