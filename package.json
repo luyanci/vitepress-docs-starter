@@ -29,7 +29,7 @@
   "devDependencies": {
     "@types/node": "^20.12.7",
     "@vueuse/core": "^9.13.0",
-    "vitepress": "1.0.0-alpha.49",
+    "vitepress": "1.1.4",
     "vue": "^3.2.47"
   }
 }
