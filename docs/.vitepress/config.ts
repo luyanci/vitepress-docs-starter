@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar'
 
 export default defineConfig({
 	lang: 'zh-CN',
@@ -6,6 +7,14 @@ export default defineConfig({
 	title: 'Hero',
 	description: '基于 vitepress 的文档模板',
 	head: [['link', { rel: 'icon', href: '/favicon.png' }]],
+	vite: {
+		plugins: [
+			AutoSidebar({
+			titleFromFile: true
+		}
+
+		)]
+	},
 	themeConfig: {
 		logo: 'logo.svg',
 		footer: {

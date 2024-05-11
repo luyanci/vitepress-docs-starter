@@ -32,5 +32,8 @@
     "@vueuse/core": "^10.9.0",
     "vitepress": "1.1.4",
     "vue": "^3.4.26"
+  },
+  "dependencies": {
+    "vite-plugin-vitepress-auto-sidebar": "^1.6.4"
   }
 }
