@@ -31,7 +31,7 @@
     "@types/node": "^20.12.12",
     "@vueuse/core": "^10.9.0",
     "vitepress": "1.2.0",
-    "vue": "^3.4.26"
+    "vue": "^3.4.34"
   },
   "dependencies": {
     "vite-plugin-vitepress-auto-sidebar": "^1.6.5"
