@@ -30,7 +30,7 @@
   "devDependencies": {
     "@types/node": "^20.12.12",
     "@vueuse/core": "^10.9.0",
-    "vitepress": "1.3.3",
+    "vitepress": "1.3.4",
     "vue": "^3.4.26"
   },
   "dependencies": {
